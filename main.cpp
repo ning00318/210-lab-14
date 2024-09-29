@@ -1,11 +1,15 @@
 #include <iostream>
 using namespace std;
 
+// Color class
 class Color {
+// private member variables
 private:
     int red;
     int green;
     int blue;
+
+// public setter & getter member functions
 public:
     int getRed() const {return red;}
     void setRed(int r) {red = r;}
@@ -16,6 +20,7 @@ public:
     int getBlue() const {return blue;}
     void setBlue(int b) {blue = b;}
 
+    // print() method to print the object data
     void print() {
         cout << "Color:" << endl;
         cout << "\tRed: " << red << endl;
@@ -24,6 +29,7 @@ public:
     }
 };
 
+// create Color objects, populate with data, and output values
 int main() {
     Color c1;
     c1.setRed(255);
@@ -36,6 +42,6 @@ int main() {
     c2.setGreen(255);
     c2.setBlue(0);
     c2.print();
-
+    
     return 0;
 }
