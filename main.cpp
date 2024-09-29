@@ -1,3 +1,5 @@
+// COMSC-210 | Lab14: Color Class | Nina Tsao
+
 #include <iostream>
 using namespace std;
 
@@ -29,7 +31,7 @@ public:
     }
 };
 
-// create Color objects, populate with data, and output values
+// create Color objects, populate with data, and output the values
 int main() {
     cout << "The values of colors:" << endl << endl;
 
