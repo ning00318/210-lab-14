@@ -31,6 +31,8 @@ public:
 
 // create Color objects, populate with data, and output values
 int main() {
+    cout << "The values of colors:" << endl << endl;
+
     Color c1;
     c1.setRed(255);
     c1.setGreen(0);
@@ -42,6 +44,12 @@ int main() {
     c2.setGreen(255);
     c2.setBlue(0);
     c2.print();
-    
+
+    Color c3;
+    c3.setRed(0);
+    c3.setGreen(0);
+    c3.setBlue(255);
+    c3.print();
+
     return 0;
 }
